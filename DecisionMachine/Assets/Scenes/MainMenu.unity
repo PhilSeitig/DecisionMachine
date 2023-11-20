@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 372977569}
   - component: {fileID: 372977568}
   - component: {fileID: 372977567}
+  - component: {fileID: 372977570}
   m_Layer: 5
   m_Name: JaOderNein
   m_TagString: Untagged
@@ -205,7 +206,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 372977568}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 372977570}
+        m_TargetAssemblyTypeName: ScenenLoader, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: YesOrNo
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &372977568
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -244,6 +257,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 372977565}
   m_CullTransparentMesh: 1
+--- !u!114 &372977570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 372977565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0132c853ccf8d843aadd4c416938043, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &567708025
 GameObject:
   m_ObjectHideFlags: 0
@@ -833,6 +858,7 @@ GameObject:
   - component: {fileID: 984616079}
   - component: {fileID: 984616078}
   - component: {fileID: 984616077}
+  - component: {fileID: 984616080}
   m_Layer: 5
   m_Name: Zahl 1-10
   m_TagString: Untagged
@@ -903,7 +929,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 984616078}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 984616080}
+        m_TargetAssemblyTypeName: ScenenLoader, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Numbers
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &984616078
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -942,6 +980,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 984616075}
   m_CullTransparentMesh: 1
+--- !u!114 &984616080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 984616075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0132c853ccf8d843aadd4c416938043, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1047921547
 GameObject:
   m_ObjectHideFlags: 0
@@ -954,6 +1004,7 @@ GameObject:
   - component: {fileID: 1047921551}
   - component: {fileID: 1047921550}
   - component: {fileID: 1047921549}
+  - component: {fileID: 1047921552}
   m_Layer: 5
   m_Name: Load Scene Test
   m_TagString: Untagged
@@ -978,7 +1029,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 250, y: 0}
+  m_AnchoredPosition: {x: 248, y: 0}
   m_SizeDelta: {x: 135, y: 45}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1047921549
@@ -1024,7 +1075,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1047921550}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1047921552}
+        m_TargetAssemblyTypeName: ScenenLoader, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Track01
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1047921550
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1063,6 +1126,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1047921547}
   m_CullTransparentMesh: 1
+--- !u!114 &1047921552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1047921547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0132c853ccf8d843aadd4c416938043, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1078178824
 GameObject:
   m_ObjectHideFlags: 0
@@ -1687,6 +1762,7 @@ GameObject:
   - component: {fileID: 1848839742}
   - component: {fileID: 1848839741}
   - component: {fileID: 1848839740}
+  - component: {fileID: 1848839743}
   m_Layer: 5
   m_Name: Frag mich
   m_TagString: Untagged
@@ -1757,7 +1833,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1848839741}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1848839743}
+        m_TargetAssemblyTypeName: ScenenLoader, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Horoscope
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1848839741
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1796,6 +1884,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1848839738}
   m_CullTransparentMesh: 1
+--- !u!114 &1848839743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1848839738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0132c853ccf8d843aadd4c416938043, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
