@@ -4,8 +4,11 @@ using UnityEngine;
 
 public class DestroyBlockade : MonoBehaviour
 {
-    void Update()
+    [SerializeField]
+    GameObject objectToDestroy;
+
+    public void DestroyGameObject()
     {
-        Destroy(gameObject, 2f); //Destroy Game Object when Scene is loaded after two seconds
+        Destroy (objectToDestroy);
     }
 }
