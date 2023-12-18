@@ -34,7 +34,7 @@ public class AnswerBallSpawner : MonoBehaviour
             ball.transform.position = position;
 
             var answer = ball.GetComponent<AnswerBall>();
-            answer.color = Random.ColorHSV();
+            //answer.color = Random.ColorHSV();
             answer.answer = "Ball No. " + (i + 1);
         }
     }

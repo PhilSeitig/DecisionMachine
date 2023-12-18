@@ -1420,13 +1420,13 @@ MonoBehaviour:
   onAnswerDropped:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1061993440}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 295971893}
+        m_TargetAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
+        m_MethodName: set_text
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -2957,8 +2957,31 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 492392509099777180, guid: fd4f374734f79c940847d7cc529686bf,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7536071714484490617}
   m_SourcePrefab: {fileID: 100100000, guid: fd4f374734f79c940847d7cc529686bf, type: 3}
+--- !u!1 &7536071714484490616 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 492392509099777180, guid: fd4f374734f79c940847d7cc529686bf,
+    type: 3}
+  m_PrefabInstance: {fileID: 7536071714484490615}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7536071714484490617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7536071714484490616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c9b08ac50f1da84daa7296bdebf9bba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  answer: Antwort
 --- !u!64 &8455238990042456544
 MeshCollider:
   m_ObjectHideFlags: 0
