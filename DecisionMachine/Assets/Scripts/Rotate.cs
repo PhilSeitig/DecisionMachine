@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class Rotate : MonoBehaviour
 {
-
+    
     // Rotate Game Object constantly
+    public Vector3 rotation;
+
     void Update()
     {
-        transform.Rotate(new Vector3(0f, 100f, 0f) * Time.deltaTime);
+        this.transform.Rotate(rotation * 1 * Time.deltaTime);
     }
 }
