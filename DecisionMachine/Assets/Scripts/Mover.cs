@@ -15,7 +15,7 @@ public class Mover : MonoBehaviour
   public float minDelta = 0.2f;
   public float maxDelta = 0.7f;
   public float minSpeed = 0.5f;
-  public float maxSpeed = 2.0f;
+  public float maxSpeed = 4.0f;
 
   private float delta;
   private float speed;
@@ -25,9 +25,9 @@ public class Mover : MonoBehaviour
     delta = Random.Range(minDelta, maxDelta);
     speed = Random.Range(minSpeed, maxSpeed);
 
-    var mr = GetComponent<MeshRenderer>();
-    if (mr != null)
-      mr.material.color = Color.blue;
+    //var mr = GetComponent<MeshRenderer>();
+    //if (mr != null)
+      //mr.material.color = Color.blue;
   }
 
   private void Update()

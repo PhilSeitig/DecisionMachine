@@ -7,8 +7,8 @@ public class DestroyBlockade : MonoBehaviour
     [SerializeField]
     GameObject objectToDestroy;
 
-    public void DestroyGameObject()
+    public void OnSceneLoaded()
     {
-        Destroy (objectToDestroy);
+        Destroy(gameObject);
     }
 }
