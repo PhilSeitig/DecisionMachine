@@ -212,7 +212,7 @@ GameObject:
   - component: {fileID: 372977567}
   - component: {fileID: 372977570}
   m_Layer: 5
-  m_Name: JaOderNein
+  m_Name: YesOrNo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1083,7 +1083,7 @@ GameObject:
   - component: {fileID: 984616077}
   - component: {fileID: 984616080}
   m_Layer: 5
-  m_Name: Zahl 1-10
+  m_Name: Number 1-10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2166,7 +2166,7 @@ GameObject:
   - component: {fileID: 1848839740}
   - component: {fileID: 1848839743}
   m_Layer: 5
-  m_Name: Frag mich
+  m_Name: Ask Me
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -17,7 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Horoscope.unity
     guid: 864e491aef60f0744b6379c9bee9de31
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Track01.unity
     guid: 99c9720ab356a0642a771bea13969a05
   m_configObjects: {}
