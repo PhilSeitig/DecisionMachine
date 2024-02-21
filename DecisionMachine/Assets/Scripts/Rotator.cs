@@ -21,6 +21,11 @@ public class Rotator : MonoBehaviour
   private void Start()
   {
     speed = Random.Range(minSpeed, maxSpeed);
+        float number = Random.Range(0f, 1f);
+        if (number < 0.5f)
+        {
+            speed = -speed;
+        }
 
     //var mr = GetComponent<MeshRenderer>();
     //if (mr != null)
