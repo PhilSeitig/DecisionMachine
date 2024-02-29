@@ -11,13 +11,14 @@ public class Rotator : MonoBehaviour
     Y,
     Z
   }
-
+  // Value of min and max Speed
   public RotationAxis axis = RotationAxis.X;
   public float minSpeed = 25.0f;
   public float maxSpeed = 50.0f;
 
   private float speed;
-
+  
+  // Rotate Object left or right
   private void Start()
   {
     speed = Random.Range(minSpeed, maxSpeed);
@@ -26,10 +27,6 @@ public class Rotator : MonoBehaviour
         {
             speed = -speed;
         }
-
-    //var mr = GetComponent<MeshRenderer>();
-    //if (mr != null)
-    //mr.material.color = Color.green;
   }
 
   private void Update()

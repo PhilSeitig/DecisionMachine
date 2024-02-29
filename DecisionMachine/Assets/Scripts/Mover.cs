@@ -10,7 +10,8 @@ public class Mover : MonoBehaviour
     Y,
     Z
   }
-
+  
+  // Min and max Values for moving objects
   public MoveAxis axis = MoveAxis.X;
   public float minDelta = 0.2f;
   public float maxDelta = 0.7f;
@@ -20,14 +21,11 @@ public class Mover : MonoBehaviour
   private float delta;
   private float speed;
 
+  // Set value random
   private void Start()
   {
     delta = Random.Range(minDelta, maxDelta);
     speed = Random.Range(minSpeed, maxSpeed);
-
-    //var mr = GetComponent<MeshRenderer>();
-    //if (mr != null)
-      //mr.material.color = Color.blue;
   }
 
   private void Update()

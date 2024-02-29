@@ -11,6 +11,7 @@ public class ScenenLoader : MonoBehaviour
         SceneManager.LoadScene(sceneName);
     }
 
+    // Script to quit the game, with debug funktion to test in Unity
     public void QuitGame()
     {
         Debug.Log("Quit!");

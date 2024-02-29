@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//Textbox for answer input
 public class AnswerBall : MonoBehaviour
 {
     public string answer;
